@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kultura i Nauka w II Rzeczypospolitej</title>
+    <style>
+         
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf5f5;
+            overflow-x: hidden;
+            color: #880000;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(45deg, #d32f2f, #880000);
+            color: #fff;
+            padding-top: 30px;
+            min-height: 100px;
+            border-bottom: #ffffff 5px solid;
+            position: relative;
+        }
+        header h1 {
+            text-align: center;
+            animation: fadeIn 2s;
+            position: relative;
+            font-size: 2.5rem;
+        }
+        header::after {
+            content: '';
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Polish_Eagle.svg/1024px-Polish_Eagle.svg.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            opacity: 0.5;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            animation: slideIn 1s;
+            border-left: 5px solid #d32f2f;
+            border-right: 5px solid #d32f2f;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .main h2 {
+            animation: scaleUp 1.5s;
+            color: #d32f2f;
+            border-bottom: 3px solid #880000;
+            padding-bottom: 5px;
+            font-size: 1.8rem;
+        }
+        .main p {
+            animation: fadeIn 2s;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        .main ul {
+            animation: fadeIn 2.5s;
+            color: #333;
+            padding-left: 20px;
+        }
+        .main ul li {
+            margin-bottom: 10px;
+            list-style-type: square;
+            transition: transform 0.3s, color 0.3s;
+        }
+        .main ul li:hover {
+            transform: scale(1.1);
+            color: #d32f2f;
+        }
+        .main img {
+            width: 50%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .main .caption {
+            font-size: 0.9rem;
+            color: #555;
+            text-align: center;
+            margin-top: 5px;
+        }
+        a {
+            color: #880000;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #d32f2f;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+        @keyframes scaleUp {
+            from { transform: scale(0.5); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        h2 {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Kultura i Nauka w II Rzeczypospolitej</h1>
+        </div>
+    </header>
+    </nav>
+    <div class="container main">
+        <h2>Analfabetyzm</h2>
+        <p>Jednym z największych problemów społecznych w odrodzonej Polsce był analfabetyzm. Na niektórych obszarach kraju niepiśmiennych było nawet 40% mieszkańców. Walka z analfabetyzmem była jednym z priorytetów władz, które podejmowały różne inicjatywy mające na celu poprawę sytuacji edukacyjnej.</p>
+        
+        <h2>Reformy edukacji</h2>
+        <p>W II Rzeczypospolitej przeprowadzono dwie ważne reformy edukacji. Pierwsza, z 1924 r., polegała na wprowadzeniu szkół dwujęzycznych dla przedstawicieli mniejszości narodowych. W ramach drugiej reformy, z 1932 r., podzielono proces edukacji na trzy etapy: szkołę powszechną, gimnazjum i liceum. Reformy te miały na celu dostosowanie systemu edukacji do potrzeb społeczeństwa i zapewnienie równych szans edukacyjnych dla wszystkich obywateli.</p>
+        
+        <h2>Osiągnięcia naukowe</h2>
+        <p>W okresie dwudziestolecia międzywojennego polscy uczeni, m.in. matematycy i filozofowie, zdobywali uznanie zarówno w ojczyźnie, jak i za granicą. Do najwybitniejszych naukowców tego okresu należeli m.in. Stefan Banach, Hugo Steinhaus, Kazimierz Twardowski i Tadeusz Kotarbiński. Ich prace miały znaczący wpływ na rozwój nauki w Polsce i na świecie.</p>
+        <div class="image-container">
+            <img src="Stefan.png" alt="Stefan Banach">
+            <p class="caption">Stefan Banach - wybitny Polski matematyk</p>
+        </div>
+
+        <h2>Literatura</h2>
+        <p>Do najwybitniejszych twórców literatury tego okresu należeli: poeci grupy Skamander, Stanisław Ignacy Witkiewicz, Bruno Schulz, Witold Gombrowicz, Zofia Nałkowska, Maria Dąbrowska i Karol Rostworowski. Ich dzieła odzwierciedlały różnorodność i bogactwo kultury polskiej, a także podejmowały ważne tematy społeczne i filozoficzne.</p>
+        <div class="image-container">
+            <img src="Bruno.png" alt="Bruno Schulz">
+            <p class="caption">Bruno Schulz - wybitny Polski pisarz i artysta</p>
+        </div>
+
+
+        <h2>Kinematografia i radio</h2>
+        <p>W okresie międzywojennym narodziła się polska kinematografia. Powstały pierwsze polskie filmy fabularne, które zdobywały uznanie zarówno w kraju, jak i za granicą. W tym okresie rozwijało się także polskie radio, które stało się ważnym medium informacyjnym i kulturalnym. Radio przyczyniło się do popularyzacji kultury i nauki wśród szerokiej publiczności.</p>
+        
+        <h2>Sport</h2>
+        <p>Polacy odnieśli również międzynarodowe sukcesy w sporcie. Do najwybitniejszych reprezentantów Polski należeli Halina Konopacka i Janusz Kusociński. Ich osiągnięcia sportowe przyczyniły się do promocji Polski na arenie międzynarodowej i były źródłem dumy narodowej.</p>
+        <div class="image-container">
+            <img src="Halina.png" alt="Halina Konopacka">
+            <p class="caption">Halina Konopacka - Polska mistrzyni olimpijska</p>
+        </div>
+
+
+        <h2>Podsumowanie</h2>
+        <p>Kultura i nauka w II Rzeczypospolitej były dynamicznie rozwijającymi się dziedzinami, które miały ogromny wpływ na życie społeczne i kulturalne kraju. Walka z analfabetyzmem, reformy edukacji, osiągnięcia naukowe, rozwój literatury, kinematografii i radia oraz sukcesy sportowe były kluczowymi elementami tego okresu. Dzięki tym osiągnięciom, II Rzeczpospolita zdołała zbudować solidne fundamenty dla przyszłego rozwoju kultury i nauki w Polsce.</p>
+    </div>
+</body>
+</html>

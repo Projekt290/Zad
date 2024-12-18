@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przewrót Majowy i Rządy Sanacji</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf5f5;
+            overflow-x: hidden;
+            color: #880000;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(45deg, #d32f2f, #880000);
+            color: #fff;
+            padding-top: 30px;
+            min-height: 100px;
+            border-bottom: #ffffff 5px solid;
+            position: relative;
+        }
+        header h1 {
+            text-align: center;
+            animation: fadeIn 2s;
+            position: relative;
+            font-size: 2.5rem;
+        }
+        header::after {
+            content: '';
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Polish_Eagle.svg/1024px-Polish_Eagle.svg.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            opacity: 0.5;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            animation: slideIn 1s;
+            border-left: 5px solid #d32f2f;
+            border-right: 5px solid #d32f2f;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .main h2 {
+            animation: scaleUp 1.5s;
+            color: #d32f2f;
+            border-bottom: 3px solid #880000;
+            padding-bottom: 5px;
+            font-size: 1.8rem;
+        }
+        .main p {
+            animation: fadeIn 2s;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        .main ul {
+            animation: fadeIn 2.5s;
+            color: #333;
+            padding-left: 20px;
+        }
+        .main ul li {
+            margin-bottom: 10px;
+            list-style-type: square;
+            transition: transform 0.3s, color 0.3s;
+        }
+        .main ul li:hover {
+            transform: scale(1.1);
+            color: #d32f2f;
+        }
+        .main img {
+            width: 50%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .main .caption {
+            font-size: 0.9rem;
+            color: #555;
+            text-align: center;
+            margin-top: 5px;
+        }
+        a {
+            color: #880000;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #d32f2f;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+        @keyframes scaleUp {
+            from { transform: scale(0.5); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        h2 {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Przewrót Majowy i Rządy Sanacji</h1>
+        </div>
+    </header>
+    <div class="container main">
+        <h2>Przewrót majowy (12 maja 1926 r.)</h2>
+        <p>12 maja 1926 roku Józef Piłsudski, na czele wiernych sobie oddziałów wojskowych, dokonał zamachu stanu. Trzy dni później prezydent Stanisław Wojciechowski i rząd Wincentego Witosa podali się do dymisji. Przewrót majowy był wynikiem niezadowolenia Piłsudskiego z sytuacji politycznej i gospodarczej kraju oraz jego dążenia do wprowadzenia rządów silnej ręki.</p>
+        <div class="image-container">
+            <img src="Jozef2.png" alt="Józef Piłsudski w 1926 roku">
+            <p class="caption">Józef Piłsudski podczas przewrotu majowego</p>
+        </div>
+
+        <h2>Wybór prezydenta (1926 r.)</h2>
+        <p>Wkrótce po przewrocie majowym, Zgromadzenie Narodowe wybrało na prezydenta prof. Ignacego Mościckiego. Mościcki był bliskim współpracownikiem Piłsudskiego i jego wybór miał na celu zapewnienie stabilności politycznej oraz realizację programu sanacji.</p>
+        <div class="image-container">
+            <img src="Ignacy2.png" alt="Ignacy Mościcki">
+            <p class="caption">Ignacy Mościcki, prezydent Polski po przewrocie majowym</p>
+        </div>
+
+        <h2>Rządy sanacji (1926-1939 r.)</h2>
+        <p>W latach 1926-1939 autorytarne rządy w Polsce sprawowali zwolennicy Józefa Piłsudskiego, tworzący obóz polityczny zwany sanacją. Sanacja dążyła do naprawy państwa poprzez wprowadzenie reform gospodarczych, społecznych i politycznych.</p>
+        <div class="image-container">
+        </div>
+
+        <h2>Podsumowanie</h2>
+        <p>Przewrót majowy i rządy sanacji były kluczowymi momentami w historii Polski międzywojennej. Józef Piłsudski, poprzez zamach stanu, wprowadził autorytarne rządy, które miały na celu naprawę państwa i wzmocnienie władzy wykonawczej.</p>
+    </div>
+</body>
+</html>

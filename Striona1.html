@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odrodzenie Rzeczypospolitej</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf5f5;
+            overflow-x: hidden;
+            color: #880000;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(45deg, #d32f2f, #880000);
+            color: #fff;
+            padding-top: 30px;
+            min-height: 100px;
+            border-bottom: #ffffff 5px solid;
+            position: relative;
+        }
+        header h1 {
+            text-align: center;
+            animation: fadeIn 2s;
+            position: relative;
+            font-size: 2.5rem;
+        }
+        header::after {
+            content: '';
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Polish_Eagle.svg/1024px-Polish_Eagle.svg.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            opacity: 0.1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            animation: slideIn 1s;
+            border-left: 5px solid #d32f2f;
+            border-right: 5px solid #d32f2f;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .main h2 {
+            animation: scaleUp 1.5s;
+            color: #d32f2f;
+            border-bottom: 3px solid #880000;
+            padding-bottom: 5px;
+            font-size: 1.8rem;
+        }
+        .main p {
+            animation: fadeIn 2s;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        .main ul {
+            animation: fadeIn 2.5s;
+            color: #333;
+            padding-left: 20px;
+        }
+        .main ul li {
+            margin-bottom: 10px;
+            list-style-type: square;
+            transition: transform 0.3s, color 0.3s;
+        }
+        .main ul li:hover {
+            transform: scale(1.1);
+            color: #d32f2f;
+        }
+        .main img {
+            width: 50%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .main .caption {
+            font-size: 0.9rem;
+            color: #555;
+            text-align: center;
+            margin-top: 5px;
+        }
+        a {
+            color: #880000;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #d32f2f;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+        @keyframes scaleUp {
+            from { transform: scale(0.5); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        h2 {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Odrodzenie Rzeczypospolitej</h1>
+        </div>
+    </header>
+    
+
+    <div class="container main">
+        <h2>Powstawanie polskich ośrodków władzy</h2>
+        <p>Jeszcze przed zakończeniem I wojny światowej, we wszystkich zaborach zaczęły powstawać polskie ośrodki władzy. Do najważniejszych należały:</p>
+        <ul>
+            <li><strong>Rada Regencyjna</strong>: Organ władzy w Królestwie Polskim, który działał od 1917 roku. Rada Regencyjna była tymczasowym organem władzy, który miał przygotować kraj do odzyskania niepodległości.</li>
+            <li><strong>Tymczasowy Rząd Ludowy Republiki Polskiej w Lublinie</strong>: Powstał w listopadzie 1918 roku, na czele z Ignacym Daszyńskim. Był to pierwszy rząd niepodległej Polski, który ogłosił manifest wzywający do utworzenia demokratycznej republiki.</li>
+            <li><strong>Polska Komisja Likwidacyjna w Galicji</strong>: Utworzona w październiku 1918 roku, na czele z Wincentym Witosem. Komisja miała na celu przejęcie władzy od zaborców i przygotowanie regionu do włączenia do odradzającej się Polski.</li>
+        </ul>
+        
+        <h2>11 listopada 1918 roku</h2>
+        <img src="Jozef.png" alt="Józef Piłsudski">
+        <div class="caption">Józef Piłsudski </div>
+        <p>Rada Regencyjna powierzyła Józefowi Piłsudskiemu dowództwo nad Wojskiem Polskim. Ten dzień jest obecnie obchodzony jako Narodowe Święto Niepodległości. Piłsudski, po powrocie z więzienia w Magdeburgu, stał się symbolem walki o niepodległość i jedności narodowej.</p>
+        
+        <h2>Styczeń 1919 roku</h2>
+        <img src="Ignacy.png" alt="Ignacy Jan Paderewski">
+        <div class="caption">Ignacy Jan Paderewski </div>
+        <p>Ignacy Jan Paderewski został polskim premierem. Jego nominacja wzmocniła pozycję Polski podczas konferencji pokojowej w Paryżu, gdzie negocjowano warunki traktatu wersalskiego. Paderewski, znany pianista i działacz niepodległościowy, odegrał kluczową rolę w uznaniu międzynarodowym Polski.</p>
+        
+        <h2>Pierwsze lata niepodległości</h2>
+        <p>Były dla Polski niezwykle trudne. Kraj musiał podźwignąć się ze zniszczeń wojennych. Jego poszczególne części, należące wcześniej do państw zaborczych, różniły się poziomem rozwoju gospodarczego, infrastrukturą i systemami prawnymi. Polska musiała zjednoczyć te różnorodne regiony i stworzyć jednolite państwo.</p>
+    </div>
+</body>
+</html>

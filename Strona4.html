@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rządy Parlamentarne w Polsce</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf5f5;
+            overflow-x: hidden;
+            color: #880000;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(45deg, #d32f2f, #880000);
+            color: #fff;
+            padding-top: 30px;
+            min-height: 100px;
+            border-bottom: #ffffff 5px solid;
+            position: relative;
+        }
+        header h1 {
+            text-align: center;
+            animation: fadeIn 2s;
+            position: relative;
+            font-size: 2.5rem;
+        }
+        header::after {
+            content: '';
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Polish_Eagle.svg/1024px-Polish_Eagle.svg.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            opacity: 0.1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            animation: slideIn 1s;
+            border-left: 5px solid #d32f2f;
+            border-right: 5px solid #d32f2f;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .main h2 {
+            animation: scaleUp 1.5s;
+            color: #d32f2f;
+            border-bottom: 3px solid #880000;
+            padding-bottom: 5px;
+            font-size: 1.8rem;
+        }
+        .main p {
+            animation: fadeIn 2s;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        .main ul {
+            animation: fadeIn 2.5s;
+            color: #333;
+            padding-left: 20px;
+        }
+        .main ul li {
+            margin-bottom: 10px;
+            list-style-type: square;
+            transition: transform 0.3s, color 0.3s;
+        }
+        .main ul li:hover {
+            transform: scale(1.1);
+            color: #d32f2f;
+        }
+        .main img {
+            width: 50%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .main .caption {
+            font-size: 0.9rem;
+            color: #555;
+            text-align: center;
+            margin-top: 5px;
+        }
+        a {
+            color: #880000;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #d32f2f;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+        @keyframes scaleUp {
+            from { transform: scale(0.5); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        h2 {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Rządy Parlamentarne w Polsce</h1>
+        </div>
+    </header>
+    <div class="container main">
+        <h2>Konstytucja marcowa (17 marca 1921 r.)</h2>
+        <p>Sejm Ustawodawczy przyjął konstytucję marcową, która określała ustrój Rzeczypospolitej. Wprowadziła ona m.in. urząd prezydenta oraz dwuizbowy parlament składający się z Sejmu i Senatu. Konstytucja ta miała na celu stworzenie demokratycznych podstaw państwa polskiego po odzyskaniu niepodległości.</p>
+        <div class="image-container">
+        </div>
+
+        <h2>Wybory do Sejmu (listopad 1922 r.)</h2>
+        <p>W listopadzie 1922 roku odbyły się wybory do nowego Sejmu. Większość zdobyła koalicja ugrupowań prawicowych – Chrześcijański Związek Jedności Narodowej. Wybory te były pierwszymi wyborami parlamentarnymi w odrodzonej Polsce i miały na celu wyłonienie przedstawicieli narodu do nowo utworzonego parlamentu.</p>
+        <div class="image-container">
+        </div>
+
+        <h2>Wybór prezydenta (11 grudnia 1922 r.)</h2>
+        <p>Jednym z najważniejszych zadań nowego parlamentu był wybór prezydenta. Józef Piłsudski zrezygnował z ubiegania się o ten urząd. Ostatecznie 11 grudnia 1922 roku Zgromadzenie Narodowe wybrało na prezydenta Gabriela Narutowicza. Pięć dni później został on zastrzelony przez związanego z endecją Eligiusza Niewiadomskiego. Było to tragiczne wydarzenie, które wstrząsnęło młodą polską demokracją.</p>
+        <div class="image-container">
+            <img src="Gabriel.png" alt="Gabriel Narutowicz">
+            <p class="caption">Prezydent Gabriel Narutowicz</p>
+        </div>
+
+        <h2>Charakterystyka rządów parlamentarnych</h2>
+        <p>Rządy parlamentarne w Polsce charakteryzowały się dużym rozdrobnieniem sceny politycznej. W latach 1919-1926 władzę sprawowało 13 kolejnych gabinetów. Częste zmiany rządów osłabiały stabilność polityczną kraju i wpływały na jego pozycję na arenie międzynarodowej. Mimo to, okres ten był czasem intensywnej pracy nad odbudową państwa i jego instytucji.</p>
+        <div class="image-container">
+        </div>
+
+        <h2>Podsumowanie</h2>
+        <p>Rządy parlamentarne w Polsce w latach 1919-1926 były okresem dynamicznych zmian i wyzwań. Przyjęcie konstytucji marcowej, wybory do Sejmu oraz wybór prezydenta były kluczowymi momentami w kształtowaniu demokratycznych podstaw odrodzonej Rzeczypospolitej. Mimo trudności i politycznych napięć, udało się stworzyć fundamenty nowoczesnego państwa polskiego.</p>
+    </div>
+</body>
+</html>

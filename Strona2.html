@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kształtowanie się granicy zachodniej i południowej</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf5f5;
+            overflow-x: hidden;
+            color: #880000;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(45deg, #d32f2f, #880000);
+            color: #fff;
+            padding-top: 30px;
+            min-height: 100px;
+            border-bottom: #ffffff 5px solid;
+            position: relative;
+        }
+        header h1 {
+            text-align: center;
+            animation: fadeIn 2s;
+            position: relative;
+            font-size: 2.5rem;
+        }
+        header::after {
+            content: '';
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Polish_Eagle.svg/1024px-Polish_Eagle.svg.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            opacity: 0.1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            animation: slideIn 1s;
+            border-left: 5px solid #d32f2f;
+            border-right: 5px solid #d32f2f;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .main h2 {
+            animation: scaleUp 1.5s;
+            color: #d32f2f;
+            border-bottom: 3px solid #880000;
+            padding-bottom: 5px;
+            font-size: 1.8rem;
+        }
+        .main p {
+            animation: fadeIn 2s;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        .main ul {
+            animation: fadeIn 2.5s;
+            color: #333;
+            padding-left: 20px;
+        }
+        .main ul li {
+            margin-bottom: 10px;
+            list-style-type: square;
+            transition: transform 0.3s, color 0.3s;
+        }
+        .main ul li:hover {
+            transform: scale(1.1);
+            color: #d32f2f;
+        }
+        .main img {
+            width: 50%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .main .caption {
+            font-size: 0.9rem;
+            color: #555;
+            text-align: center;
+            margin-top: 5px;
+        }
+        a {
+            color: #880000;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #d32f2f;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+        @keyframes scaleUp {
+            from { transform: scale(0.5); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        h2 {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Kształtowanie się granicy zachodniej i południowej</h1>
+        </div>
+    </header>
+    <div class="container main">
+        <h2>Powstanie wielkopolskie (27 grudnia 1918 r.)</h2>
+        <p>Powstanie wielkopolskie było jednym z najważniejszych zrywów niepodległościowych w historii Polski. Rozpoczęło się 27 grudnia 1918 roku w Poznaniu i zakończyło się sukcesem, prowadząc do przyłączenia niemal całej Wielkopolski do odradzającej się Polski. Powstanie to miało ogromne znaczenie dla kształtowania granic zachodnich Polski po I wojnie światowej.</p>
+        
+        <h2>Traktat wersalski (1919 r.)</h2>
+        <img src="Traktat.png" alt="Traktat wersalski">
+        <p class="caption">Podpisanie traktatu wersalskiego </p>
+        <p>Zgodnie z postanowieniami traktatu wersalskiego, Polska otrzymała Pomorze Gdańskie oraz pas wybrzeża o długości około 140 km. Gdańsk został ustanowiony wolnym miastem, co miało na celu zapewnienie Polsce dostępu do morza, jednocześnie zachowując międzynarodowy charakter tego ważnego portu.</p>
+        
+        <h2>Plebiscyt na Górnym Śląsku (1921 r.)</h2>
+        <p>O przynależności Górnego Śląska miał zdecydować plebiscyt, który odbył się w 1921 roku. Polacy zorganizowali na tym terenie trzy powstania zbrojne, aby wzmocnić swoje roszczenia. Ostatecznie, na mocy decyzji międzynarodowej komisji, Polsce przyznano 29% spornego terenu, w tym większość zakładów przemysłowych, co miało kluczowe znaczenie dla gospodarki kraju.</p>
+        
+        <h2>Spór o Śląsk Cieszyński (1919 r.)</h2>
+        <p>W 1919 roku Polacy i Czesi toczyli spór o Śląsk Cieszyński. Konflikt ten zakończył się arbitrażem Rady Ambasadorów, która przyznała większość obszaru Czechosłowacji. Decyzja ta była kontrowersyjna i pozostawiła wiele napięć między Polską a Czechosłowacją.</p>
+        
+        <h2>Plebiscyt na Warmii, Mazurach i Powiślu (lipiec 1920 r.)</h2>
+        <img src="pley.png" alt="Plebiscyt na Warmii i Mazurach">
+        <p class="caption">Plebiscyt na Warmii i Mazurach</p>
+        <p>W lipcu 1920 roku odbył się plebiscyt na Warmii, Mazurach i Powiślu. Wyniki plebiscytu były niekorzystne dla Polski, ponieważ jedynie 3% ludności opowiedziało się za przyłączeniem tych terenów do Polski. W rezultacie większość tych obszarów pozostała w granicach Niemiec.</p>
+        
+        <h2>Podsumowanie</h2>
+        <p>Kształtowanie się granic zachodnich i południowych Polski po I wojnie światowej było procesem skomplikowanym i pełnym wyzwań. Powstania, plebiscyty oraz decyzje międzynarodowych komisji miały kluczowe znaczenie dla ostatecznego kształtu granic odradzającej się Rzeczypospolitej. Mimo wielu trudności, Polska zdołała odzyskać znaczną część swoich historycznych ziem i zapewnić sobie dostęp do morza, co miało ogromne znaczenie dla jej suwerenności i rozwoju gospodarczego.</p>
+    </div>
+</body>
+</html>
